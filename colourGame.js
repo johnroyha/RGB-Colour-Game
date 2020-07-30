@@ -55,9 +55,6 @@ for (let i = 0; i < squares.length; i++) {
 		messageDisplay.style.fontFamily = "Montserrat", "Avenir";
 		messageDisplay.style.color = "steelblue";
 		messageDisplay.style.fontWeight = "700";
-		resetButton.style.fontFamily = "Montserrat", "Avenir";
-		resetButton.style.color = "steelblue";
-		resetButton.style.fontWeight = "700";
 		//compare colour to pickedColour
 		if (clickedColour === pickedColour) {
 			messageDisplay.textContent = "Correct!";
